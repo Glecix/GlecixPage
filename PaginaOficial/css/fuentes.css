@@ -1,0 +1,50 @@
+@font-face {
+	font-family: lobster;
+	src: url(../fuentes/Lobster/Lobster-Regular.ttf);
+}
+
+@font-face {
+	font-family: ruslan;
+	src: url(../fuentes/Ruslan_Display/RuslanDisplay.ttf);
+}
+
+@font-face {
+	font-family: bungeeinline; /* NO usar en titulos*/
+	src:url(../fuentes/Bungee_Inline/BungeeInline-Regular.ttf);
+}
+
+
+@font-face {
+	font-family: indieflower; /* NO usar en titulos*/
+	src:url(../fuentes/Indie_Flower/IndieFlower.ttf);
+}
+
+@font-face {
+	font-family: courgette; /* NO usar en titulos*/
+	src:url(../fuentes/Courgette/Courgette-Regular.ttf);
+}
+
+@font-face {
+	font-family: bangers; /* NO usar en titulos*/
+	src:url(../fuentes/Bangers/Bangers.ttf);
+}
+
+@font-face {
+	font-family: chewy; /* NO usar en titulos*/
+	src:url(../fuentes/Chewy/Chewy.ttf);
+}
+
+@font-face {
+	font-family: pacifico; /* NO usar en titulos*/
+	src:url(../fuentes/Pacifico/Pacifico.ttf);
+}
+
+@font-face {
+	font-family: shadows; /* NO usar en titulos*/
+	src:url(../fuentes/Shadows_Into_Light/ShadowsIntoLight.ttf);
+}
+
+@font-face {
+	font-family: special; /* NO usar en titulos*/
+	src:url(../fuentes/Special_Elite/SpecialElite.ttf);
+}

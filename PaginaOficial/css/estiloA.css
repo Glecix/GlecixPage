@@ -1,0 +1,74 @@
+@import url('reset.css');
+@import url('normalize.css');
+@import url('fuentes.css');
+@import url('header.css');
+
+/*------------ estructura del al pagina ---------*/
+
+body {
+	background: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 960px;
+	margin: auto;
+	clear: both;
+}
+
+#slideshow {
+	width: 920px;
+	height: 260px;
+	float: left;
+	background: #000;
+	border: solid 20px #fff;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+#slideshow img {
+	width: 460px;
+	height: 260px;
+	position: absolute;
+	left: 230px;
+}
+
+/*---Contenido---*/
+
+
+article {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-family: courgette;
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+article > p {
+	color: #8c8c8c;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#copyright {
+	width: 100%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	color: #fff;
+	font-family: courgette;
+}

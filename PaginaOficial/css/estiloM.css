@@ -1,0 +1,59 @@
+@import url('reset.css');
+@import url('normalize.css');
+@import url('fuentes.css');
+@import url('header.css');
+
+/*------------ estructura del al pagina ---------*/
+
+body {
+	background: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+ #wrap {
+ 	width: 73%;
+ 	margin: auto;
+ 	clear: both;
+ }
+
+#title {
+ 	margin: auto;
+ 	height: 70px;
+ 	font-family: lobster;
+ 	color: #fff;
+ }
+
+
+ #title h1 {
+ 	text-align: center;
+ 	margin: auto;
+ 	width: 25%;
+ }
+
+#principal {
+	width: 100%;
+	height: 620px;
+	box-sizing: border-box;
+	padding: 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e0e0e0+0,007bce+100 */
+	background: rgb(224,224,224); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(224,224,224,1) 0%, rgba(0,123,206,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(224,224,224,1) 0%,rgba(0,123,206,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(224,224,224,1) 0%,rgba(0,123,206,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#007bce',GradientType=0 ); /* IE6-9 */
+	border-radius: 10px;
+}
+
+
+#principal .imagenes img{
+	width: 50%;
+	height: 100px;
+	float: left;
+}
+
+ footer {
+ 	padding: 10px;
+ 	font-family: courgette;
+ 	color: #fff;
+ 	text-align: center;
+ }

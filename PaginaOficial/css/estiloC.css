@@ -1,0 +1,107 @@
+@import url('reset.css');
+@import url('normalize.css');
+@import url('fuentes.css');
+@import url('header.css');
+
+/*------------ estructura del al pagina ---------*/
+
+body {
+	background: #2d2d2d;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 72%;
+	margin: auto;
+	clear: both;
+	background: white;
+}
+
+address {
+	font-family:  shadows;
+	margin-bottom: 10px;
+}
+
+
+
+footer {
+	background: ;
+	width: 100%;
+	float: left;
+	clear: both;
+	box-shadow: 0px 2px 2px #000;
+	-moz-box-shadow: 0px 2px 2px #000;
+	-webkit-box-shadow: 0px 2px 2px #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,212121+100 */
+	background: rgb(0,0,0); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(33,33,33,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(33,33,33,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(33,33,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#212121',GradientType=0 ); /* IE6-9 */
+}
+
+footer section {
+	float: left;
+	padding: 20px;
+	width: 420px;
+}
+
+footer #acerca-de {
+	font-size: 25px;
+	line-height: 15px;
+	color: #8c8c8c;
+}
+
+footer #acerca-de h3 {
+	font-family: lobster;
+	font-size: 35px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+footer #redes-sociales > div {
+	width: 210px;
+	height: 60px;
+	float: left;
+	opacity: 0.7;
+}
+
+footer #redes-sociales > div a {
+	width: 220px;
+	height: 60px;
+	display: inline-block;
+}
+
+footer #redes-sociales > div:hover {
+	opacity: 1;
+}
+
+footer #redes-sociales .facebook {
+	background: url(../imagenes/facebook.png);
+	margin-bottom: 15px;
+}
+
+footer #redes-sociales .youtube {
+	background: url(../imagenes/youtube.png);
+	margin-bottom: 15px;
+}
+
+footer #redes-sociales .twitter {
+	background: url(../imagenes/twitter.png);
+}
+
+footer #redes-sociales .email {
+	background: url(../imagenes/correo.png);
+}
