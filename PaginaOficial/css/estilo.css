@@ -6,7 +6,7 @@
 /*------------ estructura del al pagina ---------*/
 
 body {
-	background: #2d2d2d;
+	background: #CBF9DA;
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
@@ -34,20 +34,25 @@ a:hover {
 /*---Slider---*/
 
 #slideshow {
-	width: 920px;
-	height: 260px;
+	width: 866px;
+	height: 650px;
 	float: left;
 	background: #000;
-	border: solid 20px #fff;
+	border: solid 20px rgba(0,221,255,1);
 	margin-bottom: 10px;
 	position: relative;
+	left: 28px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #slideshow img {
-	width: 796px;
-	height: 260px;
+	width: 864px;
+	height: 648px;
 	position: absolute;
-	left: 62px;
+	left: 1px;
+	top: 1px;
 }
 
 /*---Contenido---*/
@@ -66,14 +71,14 @@ a:hover {
 #Contenido article .title {
 	font-family: courgette;
 	font-size: 21px;
-	color: #fff;
+	color: #3E6B89;
 	margin: 0px;
 }
 
 #Contenido article .fecha {
 	font-size: 14px;
 	font-family: indieflower;
-	color: #1798af;
+	color: #3DD2CC;
 	margin: 0px 0px 5px 0px;
 }
 
@@ -82,10 +87,13 @@ a:hover {
 	height: 150px;
 	float: left;
 	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #Contenido article > p {
-	color: #8c8c8c;
+	color: #122D42;
 	font-size: 14px;
 	text-align: justify;
 }
@@ -96,7 +104,7 @@ aside {
 	width: 220px;
 	float: left;
 	margin-left: 20px;
-	background: #4d78b3;
+	background: #3DD2CC;
 	padding: 10px 10px 0px 10px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -137,7 +145,6 @@ aside .widget img {
 /*---Footer---*/
 
 footer {
-	background: ;
 	width: 100%;
 	float: left;
 	clear: both;
@@ -147,12 +154,15 @@ footer {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,212121+100 */
-	background: rgb(0,0,0); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(33,33,33,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(33,33,33,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(33,33,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#212121',GradientType=0 ); /* IE6-9 */
+	/* Degrade*/
+	background: rgba(0,221,255,1);
+	background: -moz-linear-gradient(left, rgba(0,221,255,1) 0%, rgba(0,194,224,1) 50%, rgba(0,221,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,221,255,1)), color-stop(50%, rgba(0,194,224,1)), color-stop(100%, rgba(0,221,255,1)));
+	background: -webkit-linear-gradient(left, rgba(0,221,255,1) 0%, rgba(0,194,224,1) 50%, rgba(0,221,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(0,221,255,1) 0%, rgba(0,194,224,1) 50%, rgba(0,221,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(0,221,255,1) 0%, rgba(0,194,224,1) 50%, rgba(0,221,255,1) 100%);
+	background: linear-gradient(to right, rgba(0,221,255,1) 0%, rgba(0,194,224,1) 50%, rgba(0,221,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ddff', endColorstr='#00ddff', GradientType=1 );
 }
 
 footer section {
@@ -166,7 +176,7 @@ footer #acerca-de {
 	font-size: 12px;
 	text-align: justify;
 	line-height: 15px;
-	color: #8c8c8c;
+	color: #122D42;
 }
 
 footer #acerca-de h3 {
@@ -211,11 +221,43 @@ footer #redes-sociales .email {
 	background: url(../imagenes/correo.png);
 }
 
+#cont {
+	margin-top: 15px;
+	width: 100%;
+	float: left;
+}
+
+#maps {
+	float: left;
+	width: 50%;
+}
+
+#maps iframe {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+	width: 100%; 
+	height: 100%;
+}
+
+#info {
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+	font-family: lobster;
+	font-size: 23px;
+	color: #3E6B89;
+}
+
+#info a {
+	color: #3DD2CC;
+}
+
 #copyright {
 	width: 100%;
 	float: left;
 	margin: 10px;
 	text-align: center;
 	font-family: courgette;
-	color: #fff;
+	color: #015051;
 }

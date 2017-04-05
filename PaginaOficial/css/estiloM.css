@@ -6,7 +6,7 @@
 /*------------ estructura del al pagina ---------*/
 
 body {
-	background: #2d2d2d;
+	background: #CBF9DA;
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
  	margin: auto;
  	height: 70px;
  	font-family: lobster;
- 	color: #fff;
+ 	color: #3E6B89;
  }
 
 
@@ -42,6 +42,8 @@ body {
 	background: linear-gradient(to bottom, rgba(224,224,224,1) 0%,rgba(0,123,206,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#007bce',GradientType=0 ); /* IE6-9 */
 	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
 }
 
 
@@ -51,9 +53,11 @@ body {
 	float: left;
 }
 
- footer {
- 	padding: 10px;
- 	font-family: courgette;
- 	color: #fff;
- 	text-align: center;
- }
+#copyright {
+	width: 100%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	color: #015051;
+	font-family: courgette;
+}

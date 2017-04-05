@@ -4,7 +4,7 @@
 }
 
 @font-face {
-	font-family: ruslan;
+	font-family: ruslan; /* NO usar en titulos*/
 	src: url(../fuentes/Ruslan_Display/RuslanDisplay.ttf);
 }
 
@@ -15,27 +15,27 @@
 
 
 @font-face {
-	font-family: indieflower; /* NO usar en titulos*/
+	font-family: indieflower; 
 	src:url(../fuentes/Indie_Flower/IndieFlower.ttf);
 }
 
 @font-face {
-	font-family: courgette; /* NO usar en titulos*/
+	font-family: courgette; 
 	src:url(../fuentes/Courgette/Courgette-Regular.ttf);
 }
 
 @font-face {
-	font-family: bangers; /* NO usar en titulos*/
+	font-family: bangers; 
 	src:url(../fuentes/Bangers/Bangers.ttf);
 }
 
 @font-face {
-	font-family: chewy; /* NO usar en titulos*/
+	font-family: chewy; 
 	src:url(../fuentes/Chewy/Chewy.ttf);
 }
 
 @font-face {
-	font-family: pacifico; /* NO usar en titulos*/
+	font-family: pacifico; 
 	src:url(../fuentes/Pacifico/Pacifico.ttf);
 }
 

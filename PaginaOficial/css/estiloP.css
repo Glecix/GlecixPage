@@ -6,7 +6,7 @@
 /*------------ estructura del al pagina ---------*/
 
 body {
-	background: #2d2d2d;
+	background: #CBF9DA;
 	font-family: Arial, Helvetica, Sans-serif;
 }
 
@@ -20,15 +20,17 @@ a:hover {
 }
 
 #wrap {
-	width: 960px;
+	width: 70%;
 	margin: auto;
 	clear: both;
+	height: auto;
 }
 
 /*---Main---*/
 #main {
 	width: 100%;
 	float: left;
+	margin: auto;
 }
 
 /*---Contenido---*/
@@ -47,7 +49,7 @@ a:hover {
 #Contenido article .title {
 	font-family: courgette;
 	font-size: 35px;
-	color: #fff;
+	color: #3E6B89;
 	margin: 0px;
 	text-align: center;
 }
@@ -55,63 +57,31 @@ a:hover {
 #Contenido article .fecha {
 	font-size: 14px;
 	font-family: indieflower;
-	color: #1798af;
+	color: #3DD2CC;
 	margin: 0px 0px 5px 0px;
 }
 
 #Contenido article .imagen {
-	width: 440px;
-	height: 300px;
+	width: 45%;
+	height: auto;
 	float: left;
 	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #Contenido article > p {
-	color: #8c8c8c;
+	color: #122D42;
 	font-size: 14px;
 	text-align: justify;
 }
 
-/*---sidebar---*/
-
-aside {
-	width: 220px;
+#copyright {
+	width: 100%;
 	float: left;
-	margin-left: 20px;
-	background: #4d78b3;
-	padding: 10px 10px 0px 10px;
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	box-shadow: 0px 2px 2px #000;
-	-moz-box-shadow: 0px 2px 2px #000;
-	-webkit-box-shadow: 0px 2px 2px #000;
-}
-
-aside .widget {
-	margin-bottom: 10px;
-	float: left;
-}
-
-aside .widget > h3 {
-	background: #fff;
-	color: #4d78b3;
-	width: 220px;
-	padding: 10px 0px;
+	margin: 10px;
 	text-align: center;
-	font-weight: bold;
-	margin-bottom: 10px;
 	font-family: courgette;
-}
-
-aside .widget a {
-	color: #fff;
-}
-
-aside .widget a ul li {
-	margin-bottom: 5px;
-}
-
-aside .widget img {
-	width: 220px;
+	color: #015051;
 }

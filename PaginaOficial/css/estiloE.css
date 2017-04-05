@@ -1,0 +1,49 @@
+@import url('reset.css');
+@import url('normalize.css');
+@import url('fuentes.css');
+@import url('header.css');
+
+/*------------ estructura del al pagina ---------*/
+
+body {
+	background: #CBF9DA;
+	font-family: Arial, Helvetica, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #122D42;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 60%;
+	margin: auto;
+	clear: both;
+	background: #CBF9DA;
+	font-size: 25px;
+}
+
+h3 {
+	font-family: lobster;
+	color: #3E6B89;
+	font-size: 30px;
+}
+
+img {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#copyright {
+	width: 100%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	font-family: courgette;
+	color: #015051;
+}
